@@ -9,11 +9,8 @@ export default function Login(){
                 console.log("matched");
             }
             else {
-                const result= parseInt(username)+parseInt(password);
-                console.log(typeof username,typeof password)
-                console.log(result);
+                console.log("wrong credential");
 
-                setTotal(parseInt(username)+parseInt(password));
             }
     }
     return(
@@ -23,7 +20,6 @@ export default function Login(){
           <h4>{username}</h4>
           <h4>{password}</h4>
             <button onClick={checkCredential}>login</button>
-            <h4>{total}</h4>
 
         </div>
     )
