@@ -1,23 +1,20 @@
 import logo from './logo.svg';
+import React,{useState} from 'react'
 import './App.css';
+import SecondCounter from "./component/secondCounter";
 
 function App() {
+
+  const [res,setRes] = useState(0)
+  console.log("Res:",res)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SecondCounter text={10} setRes={setRes} res={res}/>
+      <SecondCounter text={20} setRes={setRes} res={res}/><br/>
+
+      <span className="count"> RES:{res} </span><br/>
+      <button onClick={()=>setRes(0)}>reset</button>
+
     </div>
   );
 }
