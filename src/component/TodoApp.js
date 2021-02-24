@@ -6,6 +6,7 @@ import Error from "./ErrorPage";
 import Header from "./HeaderComponent";
 import Footer from "./FooterComponent";
 import Logout from "./Logout";
+import Welcome from "./Welcome";
 export default function TodoApp(){
 
     const [user,setUser]=useState("");
@@ -16,7 +17,8 @@ export default function TodoApp(){
 
                 <Header/>
                 <Switch>
-                     <Route exact path="/" component={Login}/>
+                     <Route exact path="/" component={Welcome}/>
+                    <Route exact path="/welcome" component={Welcome}/>
                      <Route exact path="/login" component={Login}/>
                      <Route exact path="/todo" component={ListComponent}/>
                     <Route exact path="/logout" component={Logout}/>

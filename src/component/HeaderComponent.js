@@ -8,7 +8,7 @@ export default function Header(){
             <nav className="navbar navbar-expand-md navbar-dark bg-dark">
                 <div></div>
                     <ul className="navbar-nav">
-                        <li ><Link className="nav-link" to="/"> Home </Link></li>
+                        <li ><Link className="nav-link" to="/welcome"> Home </Link></li>
                         <li ><Link className="nav-link" to="/todo"> Todos </Link></li>
                     </ul>
                     <ul className="navbar-nav navbar-collapse justify-content-end">

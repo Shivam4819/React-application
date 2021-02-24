@@ -1,6 +1,7 @@
 import React ,{useState, }from "react";
 import {HashRouter, Route} from "react-router-dom";
 
+
 export default function Login(props){
 
     const [user,setUser]=useState("");
@@ -8,7 +9,9 @@ export default function Login(props){
     const [login , setlogin]=useState(false);
     const [reject, setReject]=useState(false);
     function checkCredential(){
+
         if (user==="s" && pass==="a"){
+
 
             sessionStorage.setItem(user,pass);
             props.history.push("/todo")

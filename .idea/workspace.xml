@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="40c5f884-7f29-4031-bcc0-7de562e3cb55" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/HeaderComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/HeaderComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/TodoApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/TodoApp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,10 +64,23 @@
       <workItem from="1612967302202" duration="1170000" />
       <workItem from="1613228294590" duration="2114000" />
       <workItem from="1613885137256" duration="19539000" />
+      <workItem from="1614144710718" duration="4342000" />
+      <workItem from="1614175837200" duration="1364000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
